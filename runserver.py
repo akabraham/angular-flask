@@ -1,5 +1,5 @@
 import os
-from angular_flask import app
+from animals import app
 
 
 def runserver():

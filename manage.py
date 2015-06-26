@@ -3,8 +3,8 @@ import json
 import argparse
 import requests
 
-from angular_flask.core import db
-from angular_flask.models import Post
+from animals.core import db
+from animals.models import Post
 
 
 def create_sample_db_entry(api_endpoint, payload):
